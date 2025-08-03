@@ -2,4 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-// @import 'app/styles/variables';
+@import "app/styles/variables.scss";
+body {
+  background-color: $dark-base;
+}
