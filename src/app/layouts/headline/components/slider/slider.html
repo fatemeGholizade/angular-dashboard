@@ -1,0 +1,10 @@
+<div class="slider-wrapper">
+    
+    <i class="fa-solid fa-arrow-left arrow" (click)="next()"></i>
+    <div class="slider">
+    <div *ngFor="let user of visibleUsers" class="user-circle" (click)="selectUser(user)" title="{{user.name}}">
+      <img [src]="user.avatarUrl" [alt]="user.name" />
+    </div>
+</div>
+<i class="fa-solid fa-arrow-right arrow" (click)="prev()"></i>
+</div>
