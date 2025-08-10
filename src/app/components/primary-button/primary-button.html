@@ -1,0 +1,6 @@
+<button class="custom-btn" (click)="onClick()">
+  <span class="icon-slot">
+    <ng-content select="[icon]"></ng-content>
+  </span>
+  <span>{{ text }}</span>
+</button>

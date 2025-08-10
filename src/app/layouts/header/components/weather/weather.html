@@ -1,7 +1,6 @@
-<div class="flex items-start flex-col gap-2 " *ngIf="weatherData() as weather">
-    <p class="text-gray-400 text-sm">{{ today | date:'EEEE, d MMMM' }}</p>
-    <div class="flex gap-2 justify-center items-center">
-
-        <i class="fa-solid text-yellow-500 fa-sun"></i>{{ weather.temp }}°C
-    </div>
+<div class="flex items-start flex-col gap-2" *ngIf="weatherData() as weather">
+  <p class="text-gray-400 text-sm">{{ today | date: "EEEE, d MMMM" }}</p>
+  <div class="flex gap-2 justify-center items-center">
+    <i class="fa-solid text-yellow-500 fa-sun"></i>{{ weather.temp }}°C
+  </div>
 </div>

@@ -5,9 +5,6 @@ import { Component } from '@angular/core';
   imports: [],
   templateUrl: './profile-card.html',
   styleUrl: './profile-card.scss',
-    standalone: true,
-
+  standalone: true,
 })
-export class ProfileCard {
-
-}
+export class ProfileCard {}
